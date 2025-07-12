@@ -24,13 +24,24 @@ It demonstrates how to build a clean, idiomatic Go web service that supports bas
 /your-project
 ├── main.go            # entry point
 ├── handlers/          # HTTP handlers
-├── models/            # data models and structs
+├── models/            # data models & DB operations
 ├── routes/            # routing setup
+├── database/          # SQLite connection
 ├── utils/             # helper functions (if any)
-└── README.md          # project documentation
-
+├── mydb.sqlite        # SQLite database file
+└── README.md
 ---
 
+## 🚀 Getting Started
+
+### Prerequisites
+- [Go](https://golang.org/dl/) (>= 1.20 recommended)
+- [SQLite](https://www.sqlite.org/index.html) (optional, already included as a file)
+- [TablePlus](https://tableplus.com/) (optional, to view/manage the database)
+
+### Install SQLite driver
+bash
+go get github.com/mattn/go-sqlite3
 ## 🚀 Getting Started
 
 ### Prerequisites
