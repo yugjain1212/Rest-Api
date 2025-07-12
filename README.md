@@ -1,36 +1,33 @@
-# Rest-Api
-A simple and clean REST API built in Go (Golang) to practice HTTP routing, JSON handling, and modular code structure.
+# Student Management REST API 🚀
 
-# Go REST API Project 🚀
+This is a simple **REST API** built using **Go (Golang)** and **SQLite** for managing student records.  
+It demonstrates how to build a clean, idiomatic Go web service with persistent storage, supporting full CRUD (Create, Read, Update, Delete) operations for students.
 
-This is a simple **REST API** built using **Go (Golang)** to practice web development concepts such as HTTP routing, JSON handling, and modular code structure.  
-
-It demonstrates how to build a clean, idiomatic Go web service that supports basic CRUD operations.
+I also used **TablePlus** to easily view and manage the SQLite database.
 
 ---
 
 ## 📋 Features
-✅ Clean and idiomatic Go code  
-✅ RESTful endpoints (GET, POST, PUT, DELETE)  
-✅ JSON request and response handling  
-✅ Modular package structure  
-✅ Uses Go’s standard library — no external frameworks required  
-✅ Concurrency-ready and lightweight
+✅ Manage student records with RESTful API endpoints  
+✅ SQLite database for data persistence  
+✅ JSON request & response handling  
+✅ Modular and clean code structure  
+✅ Uses Go’s standard library + `database/sql` + `github.com/mattn/go-sqlite3` driver  
+✅ Easy to set up & run
 
 ---
 
 ## 📂 Project Structure
 
-/your-project
-├── main.go            # entry point
-├── handlers/          # HTTP handlers
-├── models/            # data models & DB operations
-├── routes/            # routing setup
+/student-api
+├── main.go            # Entry point
+├── handlers/          # HTTP handlers for students
+├── models/            # Student data models & DB operations
+├── routes/            # Routing setup
 ├── database/          # SQLite connection
-├── utils/             # helper functions (if any)
 ├── mydb.sqlite        # SQLite database file
 └── README.md
----
+
 
 ## 🚀 Getting Started
 
